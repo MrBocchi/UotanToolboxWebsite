@@ -1,0 +1,67 @@
+{
+  "nav": {
+    "brand": "Uotan Toolbox",
+    "home": "Home",
+    "preview": "Preview",
+    "about": "About",
+    "faq": "FAQ",
+    "community": "Community"
+  },
+  "home": {
+    "title": "Uotan Toolbox",
+    "subtitle": "A Modern Toolbox for Geeks",
+    "mac_cmd_pt1": "macOS's install code:",
+    "mac_cmd_pt2": "sudo xattr -r -d com.apple.quarantine /Applications/UotanToolbox.app",
+    "windows_old": "Old version for Windows",
+    "github_repo": "GitHub Repository",
+    "scroll_down": "Scroll Down"
+  },
+  "preview": {
+    "chunk1_1_title": "Basic Flashing",
+    "chunk1_1_desc": "Quick access to common actions",
+    "chunk1_2_title": "App Management",
+    "chunk1_2_desc": "ADB manage device apps",
+    "chunk1_3_title": "Scrcpy Cast",
+    "chunk1_3_desc": "Control device on PC",
+    "chunk2_title": "Multiple Flashing Modes",
+    "chunk2_1_title": "Wired Flash Mode",
+    "chunk2_1_desc": "Original TXT flashing script",
+    "chunk2_2_title": "Customized Flash Mode",
+    "chunk2_2_desc": "No terminal needed anymore",
+    "chunk2_3_title": "Advanced Flash Mode",
+    "chunk2_3_desc": "Partition information at a glance",
+    "chunk3_title": "Advanced Management",
+    "chunk3_1_title": "Format\n & Extract",
+    "chunk3_1_desc": "Simplify backup & wipe",
+    "chunk3_2_title": "Misc Control",
+    "chunk3_2_desc": "Deep control of\n device state",
+    "chunk3_3_title": "Modify Params",
+    "chunk3_3_desc": "Adjust partitions freely",
+    "more": "More features awaiting..."
+  },
+  "about": {
+    "devs_title": "Developers",
+    "thanks_title": "Special Thanks",
+    "role_installer": "Installer Dev",
+    "role_ideas": "Development Ideas",
+    "role_deps": "Dependency Support",
+    "role_design": "Website Design",
+    "links_title": "Open source projects",
+    "links_subtitle": "In no particular order"
+  },
+  "faq": {
+    "title": "FAQ",
+    "no_faq": "No common questions yet"
+  },
+  "footer": {
+    "about": "About Us",
+    "privacy": "Privacy Policy",
+    "terms": "Terms of Service",
+    "contact": "Contact Us",
+    "community_app": "Community APP",
+    "copyright": "© 2020-2026 Uotan.cn All Rights Reserved",
+    "wechat": "WeChat Official Acct.",
+    "wechat_hover": "Scan via WeChat pls.",
+    "qq": "Official QQ Group"
+  }
+}

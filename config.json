@@ -1,0 +1,85 @@
+{
+  "windows": {
+    "x64 安装包": "https://www.123865.com/s/CVQ9-Jzk8v",
+    "arm64 安装包": "https://www.123865.com/s/CVQ9-Mzk8v",
+    "x64 便携版": "https://www.123865.com/s/CVQ9-Izk8v",
+    "arm64 便携版": "https://www.123865.com/s/CVQ9-wzk8v"
+  },
+  "linux": {
+    "x64": "https://www.123865.com/s/CVQ9-gzk8v",
+    "arm64": "https://www.123865.com/s/CVQ9-Fzk8v",
+    "loong64": "https://www.123865.com/s/CVQ9-Yzk8v"
+  },
+  "macos": {
+    "x64": "https://www.123865.com/s/CVQ9-Gzk8v",
+    "arm64": "https://www.123865.com/s/CVQ9-Pzk8v"
+  },
+  "faq": {
+    "zh-CN": [
+      {
+        "question": "什么是 柚坛工具箱？",
+        "answer": "<b>柚坛工具箱 是一个现代化 Android & OpenHarmony 工具箱。</b><span style=\"display:block;height:0.5rem;\"></span><b>它集合了各种刷机需要使用的工具，并打造了一个GUI界面，方便玩机用户进行刷机，大多数功能为直接调用软件执行命令，部分功能进行了一定的特殊处理：</b><span style=\"display:block;height:0.5rem;\"></span>1.线刷ROM可以根据一个列有需要刷入镜像的分区的TXT文件进行连续刷入，TXT文件仅需一行写一个分区，将镜像文件（必须为.img）储存在TXT目录下的images文件夹中即可。flash_fastboot.txt填写非动态相关分区， flash_fastbootd.txt填写动态相关分区，同时使用可以自动重启至对应的模式，在刷入动态相关分区时，为确保刷入成功率，会自动删除用于备份的COW分区，也会自动删除非活动槽位的分区，同时还会将要刷入的分区删除重建再刷入需要刷入的镜像。<br>2.Mindows工具箱部分由某贼大佬的早期Mindows工具箱Bat版改造而来能够为部分手机快捷的刷入Windows系统，同时也涵盖了各种刷入Windows后相关的维护功能，由于功能太多，在此不详细介绍。<br>3.提取分区支持提取虚拟分区，即Super内的相关分区，虽然实现不难，但是似乎有些少见。<br>4.修改分区使用了表格的形式显示了分区，不算完美但因内置了命令能够快速读取还是比较实用的。<br>5.ADBHelper类，早期开发工具箱时在网络上完全搜索不到调用ADB相关程序的方法，根据调用CMD终端的方法进行了大量尝试，但依然遇到了种种问题，因此仿照当时学习的DBHelper类封装了ADBHelper类，最终完美的解决了各种问题。<br>6.Mindows类，开发Mindows工具箱时封装的各种方法，本意为Mindows工具箱部分所需方法的类文件，但后期由于偷懒将各种方法均写到了此处。<br>7.RegistryHelper类，网络搜索了解到的修改注册表相关的类文件，进行了一定的优化后应用到了Mindows工具箱中。<span style=\"display:block;height:0.5rem;\"></span><b>本工具箱由Uotan-Dev开发，主要使用C#语言编写。</b>"
+      },
+      {
+        "question": "如何获取最新版本的 柚坛工具箱？",
+        "answer": "您可以从本网站  <a href=\"#home\">首页</a> 的下载区域获取适用于 Windows、Linux 和 macOS 系统的最新安装包。<br>或者前往 <a href=\"https://github.com/Uotan-Dev/UotanToolboxNT/releases\" target=\"_blank\">GitHub Releases</a> 下载。"
+      },
+      {
+        "question": "使用此工具箱进行刷机需要解锁 Bootloader 吗？",
+        "answer": "是的，大部分高级操作均要求设备已解除 Bootloader 锁（BL锁）。<br>未解锁设备仅能使用部分基础 ADB 功能。"
+      },
+      {
+        "question": "工具箱支持哪些手机型号？",
+        "answer": "基础的 ADB 与 Fastboot 刷入/调试功能基于通用协议，理论上支持绝大多数安卓设备。<br>但 Mindows 等高级特性仅限部分特定已适配的机型使用，详情请参考相关社区的 <a href=\"https://www.kdocs.cn/l/cjI6xbkJFxs2?f=201\" target=\"_blank\">机型支持列表</a>。"
+      },
+      {
+        "question": "设备连接电脑后，工具箱未识别怎么办？",
+        "answer": "<b>请检查以下几点：</b><br>1. 确保手机已开启“开发者选项”并允许“USB 调试”。<br>2. 检查数据线和电脑 USB 接口是否正常（若始终未识别可尝试使用机箱后置接口）。<br>3. Windows 用户请确认是否已正确安装 ADB 和 Fastboot 驱动。"
+      }
+    ],
+    "zh-TW": [
+      {
+        "question": "什麼是 Uotan Toolbox？",
+        "answer": "<b>Uotan Toolbox 是一個現代化 Android & OpenHarmony 工具箱。</b><span style=\"display:block;height:0.5rem;\"></span><b>它集合了各種刷機需要使用的工具，並打造了一個GUI介面，方便玩機用戶進行刷機，大多數功能為直接調用軟體執行命令，部分功能進行了一定的特殊處理：</b><span style=\"display:block;height:0.5rem;\"></span>1.線刷ROM可以根據一個列有需要刷入鏡像的分區的TXT文件進行連續刷入，TXT文件僅需一行寫一個分區，將鏡像文件（必須為.img）儲存在TXT目錄下的images資料夾中即可。flash_fastboot.txt填寫非動態相關分區， flash_fastbootd.txt填寫動態相關分區，同時使用可以自動重啟至對應的模式，在刷入動態相關分區時，為確保刷入成功率，會自動刪除用於備份的COW分區，也會自動刪除非活動槽位的分區，同時還會將要刷入的分區刪除重建再刷入需要刷入的鏡像。<br>2.Mindows工具箱部分由某賊大佬的早期Mindows工具箱Bat版改造而來能夠為部分手機快捷的刷入Windows系統，同時也涵蓋了各種刷入Windows後相關的維護功能，由於功能太多，在此不詳細介紹。<br>3.提取分區支持提取虛擬分區，即Super內的相關分區，雖然實現不難，但是似乎有些少見。<br>4.修改分區使用了表格的形式顯示了分區，不算完美但因內置了命令能夠快速讀取還是比較實用的。<br>5.ADBHelper類，早期開發工具箱時在網絡上完全搜索不到調用ADB相關程序的方法，根據調用CMD終端的方法進行了大量嘗試，但依然遇到了種種問題，因此仿照當時學習的DBHelper類封裝了ADBHelper類，最終完美的解決了各種問題。<br>6.Mindows類，開發Mindows工具箱時封裝的各種方法，本意為Mindows工具箱部分所需方法的類文件，但後期由於偷懶將各種方法均寫到了此處。<br>7.RegistryHelper類，網絡搜索了解到的修改註冊表相關的類文件，進行了一定的優化後應用到了Mindows工具箱中。<span style=\"display:block;height:0.5rem;\"></span><b>本工具箱由Uotan-Dev開發，主要使用C#語言編寫。</b>"
+      },
+      {
+        "question": "如何獲取最新版本的 Uotan Toolbox？",
+        "answer": "您可以從本網站  <a href=\"#home\">首頁</a> 的下載區域獲取適用於 Windows、Linux 和 macOS 系統的最新安裝包。<br>或者前往 <a href=\"https://github.com/Uotan-Dev/UotanToolboxNT/releases\" target=\"_blank\">GitHub Releases</a> 下載。"
+      },
+      {
+        "question": "使用此工具箱進行刷機需要解鎖 Bootloader 嗎？",
+        "answer": "是的，大部份高級操作均要求設備已解除 Bootloader 鎖（BL鎖）。<br>未解鎖設備僅能使用部分基礎 ADB 功能。"
+      },
+      {
+        "question": "工具箱支援哪些手機型號？",
+        "answer": "基礎的 ADB 與 Fastboot 刷入/偵錯功能基於通用協議，理論上支援絕大多數安卓設備。<br>但 Mindows 等高級特性僅限部分特定已適配的機型使用，詳情請參考相關社區的 <a href=\"https://www.kdocs.cn/l/cjI6xbkJFxs2?f=201\" target=\"_blank\">機型支援列表</a>。"
+      },
+      {
+        "question": "設備連接電腦後，工具箱未識別怎麼辦？",
+        "answer": "<b>請檢查以下幾點：</b><br>1. 確保手機已開啟「開發者選項」並允許「USB 偵錯」。<br>2. 檢查傳輸線和電腦 USB 介面是否正常（若始終未識別可嘗試使用機箱後置介面）。<br>3. Windows 用戶請確認是否已正確安裝 ADB 和 Fastboot 驅動程式。"
+      }
+    ],
+    "en": [
+      {
+        "question": "What is Uotan Toolbox?",
+        "answer": "<b>Uotan Toolbox is A Modern Toolbox for Android & OpenHarmony Devices.</b><span style=\"display:block;height:0.5rem;\"></span><b>It integrates various flashing tools and provides a GUI interface to facilitate flashing for users. Most functions directly call software to execute commands, while some feature special handling:</b><span style=\"display:block;height:0.5rem;\"></span>1. Fastboot ROM flashing can perform continuous flashing based on a TXT file listing target partitions. You just need to store the image files (.img) in the 'images' folder under the TXT directory. Use flash_fastboot.txt for non-dynamic partitions and flash_fastbootd.txt for dynamic partitions. Toolbox will also ensure the success rate by handling COW/inactive partitions properly.<br>2. The Mindows section helps flash Windows systems to supported devices.<br>3. Supports extracting virtual partitions from Super.<br>4. Provides a practical table view for reading and modifying partitions.<br>5. Includes customized robust code helpers to overcome various limitations in ADB calling and Registry modification.<span style=\"display:block;height:0.5rem;\"></span><b>This toolbox is developed by Uotan-Dev and primarily written in C#.</b>"
+      },
+      {
+        "question": "How to get the latest version of Uotan Toolbox?",
+        "answer": "You can get the latest installation packages for Windows, Linux, and macOS from the download section on the <a href=\"#home\">Home</a> page of this website.<br>Or go to <a href=\"https://github.com/Uotan-Dev/UotanToolboxNT/releases\" target=\"_blank\">GitHub Releases</a> to download them."
+      },
+      {
+        "question": "Do I need to unlock my Bootloader to flash with this toolbox?",
+        "answer": "Yes, most advanced operations require the device to have an unlocked Bootloader (BL lock).<br>Locked devices can only access basic ADB functions."
+      },
+      {
+        "question": "What phone models are supported by the toolbox?",
+        "answer": "Basic ADB and Fastboot flashing/debugging functions rely on common protocols and theoretically support most Android devices.<br>However, advanced features like Mindows (flashing Windows systems) are strictly limited to particular adapted models. Please refer to your device community for the <a href=\"https://www.kdocs.cn/l/cjI6xbkJFxs2?f=201\" target=\"_blank\">support list</a>."
+      },
+      {
+        "question": "What should I do if the toolbox does not recognize my device?",
+        "answer": "<b>Please check the following:</b><br>1. Ensure 'Developer Options' is enabled on your phone and 'USB Debugging' is allowed.<br>2. Check if the USB cable and computer USB port are working properly (using the rear port of the desktop case is recommended).<br>3. Windows users, please confirm if the ADB and Fastboot drivers are correctly installed."
+      }
+    ]
+  }
+}

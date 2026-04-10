@@ -1,0 +1,67 @@
+{
+  "nav": {
+    "brand": "Uotan Toolbox",
+    "home": "首頁",
+    "preview": "介紹",
+    "about": "關於",
+    "faq": "FAQ",
+    "community": "前往社區"
+  },
+  "home": {
+    "title": "Uotan Toolbox",
+    "subtitle": "為玩機發燒友而生",
+    "mac_cmd_pt1": "macOS請複製到應用程式後在終端執行命令:",
+    "mac_cmd_pt2": "sudo xattr -r -d com.apple.quarantine /Applications/UotanToolbox.app",
+    "windows_old": "Windows 舊版下載",
+    "github_repo": "GitHub 倉庫",
+    "scroll_down": "向下滾動"
+  },
+  "preview": {
+    "chunk1_1_title": "基本刷入",
+    "chunk1_1_desc": "快速調用常用刷機操作",
+    "chunk1_2_title": "應用管理",
+    "chunk1_2_desc": "ADB管理手機端應用",
+    "chunk1_3_title": "Scrcpy投屏工具",
+    "chunk1_3_desc": "在電腦端控制手機",
+    "chunk2_title": "多種刷入模式可選擇",
+    "chunk2_1_title": "線刷模式",
+    "chunk2_1_desc": "原創TXT線刷模式",
+    "chunk2_2_title": "自定義刷入模式",
+    "chunk2_2_desc": "刷機從此無需終端",
+    "chunk2_3_title": "高級線刷模式",
+    "chunk2_3_desc": "分區資訊一目了然",
+    "chunk3_title": "進階功能與管理",
+    "chunk3_1_title": "格式化&提取",
+    "chunk3_1_desc": "讓備份與雙清不再繁瑣",
+    "chunk3_2_title": "雜項控制",
+    "chunk3_2_desc": "設備狀態深度掌控",
+    "chunk3_3_title": "修改分區",
+    "chunk3_3_desc": "自由調整分區大小",
+    "more": "更多功能待你探索..."
+  },
+  "about": {
+    "devs_title": "開發成員",
+    "thanks_title": "特別感謝",
+    "role_installer": "安裝器開發",
+    "role_ideas": "提供開發思路",
+    "role_deps": "依賴支持",
+    "role_design": "網站設計",
+    "links_title": "開源項目",
+    "links_subtitle": "順序不分先後"
+  },
+  "faq": {
+    "title": "FAQ",
+    "no_faq": "暫無常見問題"
+  },
+  "footer": {
+    "about": "關於我們",
+    "privacy": "隱私政策",
+    "terms": "服務協議",
+    "contact": "聯絡我們",
+    "community_app": "社區APP",
+    "copyright": "© 2020-2026 Uotan.cn 保留所有權利",
+    "wechat": "關注公眾號",
+    "wechat_hover": "用微信掃喵",
+    "qq": "官方QQ群"
+  }
+}

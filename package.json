@@ -1,0 +1,17 @@
+{
+  "name": "uotan-toolbox-web",
+  "version": "1.0.0",
+  "scripts": {
+    "dev": "npx vite --host",
+    "build": "npx vite build",
+    "preview": "npx vite preview --host"
+  },
+  "keywords": [],
+  "author": "Mr_Bocchi",
+  "license": "MIT",
+  "description": "",
+  "devDependencies": {
+    "gsap": "^3.14.2",
+    "vite": "^8.0.3"
+  }
+}
